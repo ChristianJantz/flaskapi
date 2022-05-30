@@ -1,0 +1,4 @@
+DB_ADMIN = ""
+DB_PASSWORD = ""
+DB_HOST = ""
+DB_NAME = ""
