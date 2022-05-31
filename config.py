@@ -10,5 +10,5 @@ class Config:
     FLASK_PORT = 5000
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://'+ db_settings.DB_ADMIN +':'+ db_settings.DB_PASSWORD+ '@' + db_settings.DB_HOST +'/'+ db_settings.DB_NAME +'?sslmode=require'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SECRET_KEY = db_settings.APP_SECRET_KEY
+    #SECRET_KEY = db_settings.APP_SECRET_KEY
     JWT_ERROR_MESSAGE_KEY = 'message'

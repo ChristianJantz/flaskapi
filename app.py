@@ -12,7 +12,7 @@ app.config.from_object(Config)
 db.init_app(app)
 
 
-api = Api(app)
+api = Api(app, version="1.0", title="Flask Api Todos an Notes")
 
 
 if __name__ == "__main__":
